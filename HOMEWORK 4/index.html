@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>San Andreas Government</title>
+        <style>
+
+            @import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+            body,html{
+                margin: 0;
+                height: 100%;
+            }
+            
+            /* HEADER START */
+            ul {
+                margin: 0;
+                padding: 0;
+
+            }
+           
+
+            .header-container-inner{
+                background: rgb(26, 145, 185) ;
+                height: 120px;
+                width: 100%;
+                margin: 0 auto;
+                
+            }
+
+            /*NAV MENU */
+            .navigation {
+                list-style-type: none;
+                text-align: center;
+            }
+
+            .navigation li {
+                display: inline-block;
+                padding-right: 55px;
+                margin-top: 50px;
+                font-size: 20px;
+            }
+
+            .navigation li a {
+                color: rgb(255, 246, 246);
+                font-family: Play;
+                text-decoration: none;
+            }
+
+            .navigation li a:hover {
+                opacity: 0.7;
+                color:rgb(26, 26, 29)
+            }
+
+            /* HEADER END */
+
+            /*MAIN START */
+
+            .main {
+
+                
+                height: 1800px;
+                width: 100%;
+                margin: 0 auto;
+
+            }
+        
+             .featured-area {
+                background-image: url(/images/city.jpg);
+                height: 500px;
+                background-position: center;
+                background-size: cover;
+                border: 5px rgb(203, 206, 209);
+                border-style: solid none;   
+                
+            }
+            .featured-text {
+                text-align: center;
+                font-family: Play;
+                font-size: 25px;
+                color: rgb(65, 63, 63);
+                padding-top: 16%;
+            }
+            
+            .sub-form{
+                display: inline-block;
+                font-family: Play;
+                font-size: 18px;
+                color: rgb(65, 63, 63);
+                border-radius: 5px;
+                padding: 2% 2% 5% 5%;
+            }
+            
+            .form-control {
+                border: 2px solid rgb(203, 206, 209);
+                border-radius: 0.5em;
+                margin-bottom: 1em;
+                width: 300px;
+                line-height: 3;
+                color: #000;
+            }
+
+            .sub-button {
+                font-family: Play;
+                font-size: 16px;
+                color:white;
+                width: 150px;
+                height: 45px;
+                background: rgb(26, 145, 185);
+                border-radius: 0.5rem;
+                border: none;
+                
+                margin-left: 30px;
+                
+                
+            }
+        </style>
+    </head>
+    <body>
+        
+        <!--HEADER AREA START-->
+            <div class="header-container">
+                <div class="header-container-inner">
+                    <div class="menu">
+                        <ul class="navigation">
+                            <li>
+                                <a href="">Начало</a>  
+                            </li>
+                            <li>
+                                <a href="">За областта</a>
+                            </li>
+                            <li>
+                                <a href="">Кабинет</a>
+                            </li>
+                            <li>
+                                <a href="">Администрация</a>
+                            </li>
+                            <li>
+                                <a href="">Контакти</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <!--HEADER AREA END-->
+
+        <!--MAIN ARE START-->
+        <div class="main">
+            <div class="featured-area">
+                <div class="featured-text">
+                    <h1>Добре дошли в Сан Андреас</h1>
+                    <h4>Открийте най-доброто място за живот за вас</h4>
+                </div>
+            </div>
+            
+            <div class="sub-form">
+                    <h2>Бъдете в час</h2>
+                    <div class="form-fill">
+                        <form class="form-subscribe">
+                            <input type="email" class="form-control" id="newsletter_email" placeholder="Въведете имейл си">
+                            <button type="submit" class="sub-button">АБОНИРАНЕ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+              
+
+        </div>
+        <!--MAIN AREA END-->
+        
+        
+        
+    </body>
+</html>
